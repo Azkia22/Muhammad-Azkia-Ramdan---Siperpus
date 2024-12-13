@@ -19,8 +19,8 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class="font-sans antialiased">
-    <div class="min-h-screen bg-gray-100 dark:bg-gray-900">
+<body class="font-san" style="background-image: url('{{ asset('https://ucarecdn.com/dc8ae493-af22-477b-980a-c01ca72947b1/GambarWhatsApp20241212pukul121800_a3c22012.jpg') }}'); background-size: 120%; background-position::content;">
+  
         @include('layouts.navigation')
 
         <!-- Page Heading -->
